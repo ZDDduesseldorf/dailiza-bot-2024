@@ -18,7 +18,7 @@ psychobabble = [
     "Was denkst du, hat dazu geführt, dass du dich {0} fühlst?",
     "Wie lange fühlst du dich schon {0}?"]],
 
-    [r"Ich kann  nicht (.*)",
+    [r"Ich kann nicht (.*)",
     ["Warum denkst du, dass du {0} nicht kannst?",
     "Hast du schon mal darüber nachgedacht, warum du {0} nicht kannst?",
     "Was hält dich davon ab, {0} zu können?"]],
