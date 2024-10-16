@@ -15,6 +15,11 @@ psychobabble = [
     
     [r"Rechne .*",
     ["Ich bin ein schlechter Kopfrechner.",
-    "Damit kann ich nicht rechnen ;)"]]
+    "Damit kann ich nicht rechnen ;)"]],
+     
+    [r"Warum (.*?) (.*?) (.*)[?.!]",
+    ["Ich weiß nicht warum {1} {2} {0}.",
+    "Ich bin mir nicht sicher, warum {1} {2} {0}.",
+    "Ich finde auch, dass {1} {2} {0}."]],
 
 ]
