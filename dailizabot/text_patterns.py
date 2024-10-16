@@ -21,5 +21,10 @@ psychobabble = [
     ["Ich weiß nicht warum {1} {2} {0}.",
     "Ich bin mir nicht sicher, warum {1} {2} {0}.",
     "Ich finde auch, dass {1} {2} {0}."]],
+    
+    [r"Ich wünsche mir (.*)",
+    ["Sich {0} zu wünschen ist Gefährlich.",
+    "Pass auf was du dir wünscht.",
+    "WAS?! Ich wünsche mir auch {0}! >:("]],
 
 ]
