@@ -12,6 +12,7 @@ reflections = {
     "du wirst": "ich werde",
     "deine": "meine",
     "dein": "mein",
+    "dir": "mir",
     "wäre": "wärst"
 }
 
