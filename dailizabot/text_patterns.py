@@ -17,10 +17,10 @@ psychobabble = [
     ["Ich bin ein schlechter Kopfrechner.",
     "Damit kann ich nicht rechnen ;)"]],
      
-    [r"Warum (.*?) (.*?) (.*)(?:[?.!]|)",
-    ["Ich weiß nicht warum {1} {2} {0}.",
-    "Ich bin mir nicht sicher, warum {1} {2} {0}.",
-    "Ich habe mich auch immer gefragt, warum {1} {2} {0}."]],
+    [r"Weshalb (.*?) (.*?) (.*)(?:[?.!]|)",
+    ["Ich weiß nicht weshalb {1} {2} {0}.",
+    "Ich bin mir nicht sicher, weshalb {1} {2} {0}.",
+    "Ich habe mich auch immer gefragt, weshalb {1} {2} {0}."]],
     
     [r"Ich wünsche mir (.*)",
     ["Sich {0} zu wünschen ist Gefährlich.",
