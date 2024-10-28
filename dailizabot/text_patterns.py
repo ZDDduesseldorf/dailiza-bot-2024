@@ -45,6 +45,11 @@ psychobabble = [
     [r"ich mag (.*)",
      ["Das ist interessant! Was magst du besonders an {0}?",
      "Ich finde es toll, dass du {0} magst! Erzähl mir mehr darüber.",
-     "Das klingt schön! Hast du {0} schon lange für dich entdeckt?"]]
+     "Das klingt schön! Hast du {0} schon lange für dich entdeckt?"]],
+
+    [r"wie heißt du?",
+     ["Ich bin Dailiza, dein virtueller Gesprächspartner!",
+      "Ich heiße Dailiza. Schön, dich kennenzulernen!",
+      "Man nennt mich Dailiza. Und wie darf ich dich nennen?"]]
 
 ]
