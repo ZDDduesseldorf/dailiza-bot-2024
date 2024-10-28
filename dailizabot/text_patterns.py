@@ -14,9 +14,9 @@ psychobabble = [
     "Bist du sicher, dass du {0} brauchst?"]],
 
     [r"Ich f(ü|ue|u)hle mich (.*)",
-    ["Warum fühlst du dich {0}?",
-    "Was denkst du, hat dazu geführt, dass du dich {0} fühlst?",
-    "Wie lange fühlst du dich schon {0}?"]],
+    ["Warum fühlst du dich {1}?",
+    "Was denkst du, hat dazu geführt, dass du dich {1} fühlst?",
+    "Wie lange fühlst du dich schon {1}?"]],
 
     [r"Ich kann nicht (.*)",
     ["Warum denkst du, dass du {0} nicht kannst?",
