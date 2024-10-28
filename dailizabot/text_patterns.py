@@ -40,6 +40,11 @@ psychobabble = [
 
     [r"Ich kann nicht (.*)",
      ["Vielleicht solltest du es mit einer Tasse Kaffee {0} versuchen!",
-      "Kannst du nicht oder willst du nicht? Es gibt einen großen Unterschied!"]]
-      
+      "Kannst du nicht oder willst du nicht? Es gibt einen großen Unterschied!"]],
+
+    [r"ich mag (.*)",
+     ["Das ist interessant! Was magst du besonders an {0}?",
+     "Ich finde es toll, dass du {0} magst! Erzähl mir mehr darüber.",
+     "Das klingt schön! Hast du {0} schon lange für dich entdeckt?"]]
+
 ]
