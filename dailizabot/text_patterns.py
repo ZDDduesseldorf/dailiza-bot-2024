@@ -36,6 +36,8 @@ psychobabble = [
     [r"verfasse{0,1}|erstelle{0,1}|schreibe{0,1}|formuliere{0,1}",
      ["Aber nur, wenn du mich korrekt zitierst!",
       "Da brauchen wir wohl beide Hilfe bei...",
-      "Du möchtest ein Premium-Feature nutzen. Informiere dich über unsere aktuellen Tarife!"]]                             
+      "Du möchtest ein Premium-Feature nutzen. Informiere dich über unsere aktuellen Tarife!"]],
+
+    [r"hello|hi|hey", ["Hello there!", "Hi! How can I help you?", "Hey!"]]                  
 
 ]
