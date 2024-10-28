@@ -40,6 +40,6 @@ psychobabble = [
 
     [r"hello|hi|hey", ["Hello there!", "Hi! How can I help you?", "Hey!"]],   
 
-    [r"what's your name", ["I'm Dailiza!", "You can call me Dailiza."]]          
+    [r"what is your name", ["I'm Dailiza!", "You can call me Dailiza."]]          
 
 ]
