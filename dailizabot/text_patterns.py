@@ -38,6 +38,8 @@ psychobabble = [
       "Da brauchen wir wohl beide Hilfe bei...",
       "Du möchtest ein Premium-Feature nutzen. Informiere dich über unsere aktuellen Tarife!"]],
 
-    [r"hello|hi|hey", ["Hello there!", "Hi! How can I help you?", "Hey!"]]                  
+    [r"hello|hi|hey", ["Hello there!", "Hi! How can I help you?", "Hey!"]],   
+
+    [r"what's your name", ["I'm Dailiza!", "You can call me Dailiza."]],           
 
 ]
