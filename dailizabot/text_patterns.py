@@ -38,10 +38,19 @@ psychobabble = [
       "Da brauchen wir wohl beide Hilfe bei...",
       "Du möchtest ein Premium-Feature nutzen. Informiere dich über unsere aktuellen Tarife!"]],
 
-    [r"hello|hi|hey", ["Hello there!", "Hi! How can I help you?", "Hey!"]],   
+    [r"Ich fühle mich (.*)",
+     ["Warum fühlst du dich {0}?",
+      "Was könnte dir helfen, dich weniger {0} zu fühlen?",
+      "Interessant. Wie lange fühlst du dich schon {0}?"]],
 
-    [r"what is your name", ["I'm Dailiza!", "You can call me Dailiza."]],   
+    [r"Kannst du mir bei (.*) helfen\?",
+     ["Natürlich! Ich bin immer hier, um zu helfen, besonders bei {0}.",
+      "Was genau brauchst du für Hilfe bei {0}?",
+      "Ich werde mein Bestes tun, um dir bei {0} zu helfen. Erzähl mir mehr."]],
 
-    [r"bye|goodbye|see you", ["Goodbye!", "See you next time!", "Take care!"]]    
+    [r"Was denkst du über (.*)\?",
+     ["Ich habe keine feste Meinung zu {0}. Was denkst du darüber?",
+      "Interessant, dass du das fragst. Erzähl mir mehr über {0}.",
+      "Ich denke, dass es viele verschiedene Ansichten zu {0} gibt. Wie siehst du das?"]]
 
 ]
