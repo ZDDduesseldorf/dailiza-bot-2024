@@ -36,6 +36,21 @@ psychobabble = [
     [r"verfasse{0,1}|erstelle{0,1}|schreibe{0,1}|formuliere{0,1}",
      ["Aber nur, wenn du mich korrekt zitierst!",
       "Da brauchen wir wohl beide Hilfe bei...",
-      "Du möchtest ein Premium-Feature nutzen. Informiere dich über unsere aktuellen Tarife!"]]                             
+      "Du möchtest ein Premium-Feature nutzen. Informiere dich über unsere aktuellen Tarife!"]],
+
+    [r"Ich fühle mich (.*)",
+     ["Warum fühlst du dich {0}?",
+      "Was könnte dir helfen, dich weniger {0} zu fühlen?",
+      "Interessant. Wie lange fühlst du dich schon {0}?"]],
+
+    [r"Kannst du mir bei (.*) helfen\?",
+     ["Natürlich! Ich bin immer hier, um zu helfen, besonders bei {0}.",
+      "Was genau brauchst du für Hilfe bei {0}?",
+      "Ich werde mein Bestes tun, um dir bei {0} zu helfen. Erzähl mir mehr."]],
+
+    [r"Was denkst du über (.*)\?",
+     ["Ich habe keine feste Meinung zu {0}. Was denkst du darüber?",
+      "Interessant, dass du das fragst. Erzähl mir mehr über {0}.",
+      "Ich denke, dass es viele verschiedene Ansichten zu {0} gibt. Wie siehst du das?"]]
 
 ]
