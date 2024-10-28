@@ -13,7 +13,7 @@ psychobabble = [
     "Würde {0} dir denn wirklich helfen?",
     "Bist du sicher, dass du {0} brauchst?"]],
 
-    [r"Ich fuhle mich (.*)",
+    [r"Ich f(ü|ue|u)hle mich (.*)",
     ["Warum fühlst du dich {0}?",
     "Was denkst du, hat dazu geführt, dass du dich {0} fühlst?",
     "Wie lange fühlst du dich schon {0}?"]],
@@ -23,7 +23,7 @@ psychobabble = [
     "Hast du schon mal darüber nachgedacht, warum du {0} nicht kannst?",
     "Was hält dich davon ab, {0} zu können?"]],
 
-    [r"Warum passiert mir immer (.*)",
+    [r"Warum passiert mir immer,? (.*)",
     ["Warum glaubst du, dass dir immer {0} passiert?",
     "Meinst du, dass es einen Grund gibt, warum dir immer {0} passiert?",
     "Was würde passieren, wenn {0} nicht mehr vorkäme?"]]
