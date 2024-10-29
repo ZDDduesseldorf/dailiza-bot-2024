@@ -57,7 +57,11 @@ psychobabble = [
      ["Warum bist du {0}?", 
       "Wie lange bist du schon {0}?",
       "Bist du sicher, dass du {0} bist?"]],
-
+    
+    [r"Kannst du mir (.*) erklären?",
+     ["Was möchtest du über {0} wissen?",
+      "Wie kann ich dir mit {0} helfen?",
+      "Warum interessierst du dich für {0}?"]]
 ]
 
 
