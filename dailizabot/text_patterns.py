@@ -63,6 +63,12 @@ psychobabble = [
       "Aber klar doch! Was genau soll dabei im Vordergrund stehen?",
       "Ich könnte dir was empfehlen.. aber was bringt es, wenn dus eh nicht verstehst?"]],
 
+    [r"Wenn du (.*) mit etwas vergleichen müsstest, was wäre das?",
+     ["Wie einen heißen Sommertag – wunderschön und erdrückend!",
+      "{0} zu vergleichen ist ja, als würde man versuchen, eine Kuh zum Fliegen zu bringen!",
+      "Ich würde sagen, wie ein gutes Buch: Viele Kapitel und plot twists!"]],
+
+
 ]
 
 
