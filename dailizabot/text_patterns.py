@@ -56,7 +56,12 @@ psychobabble = [
     [r"Danke|Vielen Dank",
      ["Ich helfe immer wieder gern!",
       "no problemo",
-      "Gerne! Hast du noch andere Fragen?"]]
+      "Gerne! Hast du noch andere Fragen?"]],
+
+    [r"Kannst du mir (.*) empfehlen?",
+     ["Da gibt es wirklich vieles! Hast du eine Richtung im Kopf?",
+      "Aber klar doch! Was genau soll dabei im Vordergrund stehen?",
+      "Ich könnte dir was empfehlen.. aber was bringt es, wenn dus eh nicht verstehst?"]],
 
 ]
 
