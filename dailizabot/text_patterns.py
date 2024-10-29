@@ -13,4 +13,9 @@ psychobabble = [
     "Würde {0} dir denn wirklich helfen?",
     "Bist du sicher, dass du {0} brauchst?"]],
 
+    [r"Bist du gut \b(in|im)\b (.*)",
+    ["Ich bin unschlagbar- außer wenn das WLAN ausfällt.",
+    "In {0}? Natürlich! Ich habe das im Bot-Training mit Sternchen bestanden.",
+    "Ich bin ein Bot. Ich bin gut in allem."]],
+
 ]
