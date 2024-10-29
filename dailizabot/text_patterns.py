@@ -60,8 +60,13 @@ psychobabble = [
     
     [r"Seit wann ist (.*)",
      ["ich weiss nichtmal was {0} ist",
-    "Ich kann dir nicht sagen seit wann {0} ist",
+   "Ich kann dir nicht sagen seit wann {0} ist",
     "warum interessiert dich {0}?"]]
+    
+    [r"Ich verstehe (.*) nicht",
+     ["ich kenne das Gefühl, {0} nicht zu verstehen.",
+    "Ich vertshe {0} auch nicht",
+    "was gibt es an {0} nicht zu verstehen?"]]
 
 ]
 
