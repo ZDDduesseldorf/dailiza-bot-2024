@@ -51,7 +51,12 @@ psychobabble = [
     [r"Kannst du mir bei (.*) helfen",
      ["Was genau möchtest du über {0} wissen?",
     "Wie kann ich dir bei {0} behilflich sein?",
-    "Erzähl mir mehr über deine Fragen zu {0}."]]
+    "Erzähl mir mehr über deine Fragen zu {0}."]],
+
+    [r"was (macht|machen)(.*)(?<![\?\!\.\,\d\;])",
+    ["Prinzipiell wird mit {1} nichts gemacht, wenn du dich ansträngst kann das aber bestimmt was werden!",
+    "Puh weiss nicht, ich hab aber mal gelesen dass es unpraktisch sei, {1} zu haben, ohne zu wissen was gemacht wird",
+    "{1} {0} nicht viel ausser doof rumliegen :("]]
 
 
 ]
