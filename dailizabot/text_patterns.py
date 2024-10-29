@@ -70,3 +70,6 @@ psychobabble.append((r'(?:H|h)ast du (.*?)(?=\?|$)', ["Nein. Hast du {0}?", "Vie
 
 
 psychobabble.append((r'(?:I|i)ch will ([^?]*?)(?:[!.]*$|$)', ["Das heißt ich moechte.\n...\nWas nicht heisst, dass es auch passiert.\nUnd jetzt?", "Ich will auch {0}, aber das Leben ist nunmal kein Wunschkonzert.\nGibt's irgendwas anderes das ich tun kann? Und bitte, bleib realistisch.", "Du willst {0}? Naja, muss ja jeder selber wissen.\nSonst noch was?"]))
+
+
+psychobabble.append((r'(?:D|d)u bist ([^?]*?)(?:[!.]*$|$)', ["Danke, du bist auch {0}!\nKann ich dir noch irgendwie helfen?", "Ich tue mal so als haette ich das nicht gelesen...\nSonst noch was?", "Ich bin also {0}? Ich weiss ehrlich gesagt nicht was ich darauf sagen soll...\nBitte frag mich irgendwas, damit ich das hier vergessen kann."]))
