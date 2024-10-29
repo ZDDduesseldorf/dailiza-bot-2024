@@ -68,3 +68,6 @@ psychobabble.append((r'ich mag (.*)', ["Warum magst du {0}?", "Was gefällt dir 
 
 
 psychobabble.append((r"ich habe angst vor (.*)", ["Warum hast du Angst vor {0}?","Was genau macht dir an {0} Angst?","Denkst du, deine Angst vor {0} ist berechtigt?"]))
+
+
+psychobabble.append((r"ich träume von (.*)", [ "Was bedeutet {0} für dich?","Glaubst du, dass du {0} erreichen kannst?","Warum träumst du von {0}?"]))
