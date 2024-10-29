@@ -73,3 +73,5 @@ psychobabble.append((r"ich habe angst vor (.*)", ["Warum hast du Angst vor {0}?"
 psychobabble.append((r"ich träume von (.*)", [ "Was bedeutet {0} für dich?","Glaubst du, dass du {0} erreichen kannst?","Warum träumst du von {0}?"]))
 
 psychobabble.append((r"warum fühlst du (.*)", [ "Es könnte daran liegen, dass ich ein Programm bin.","Das ist eine interessante Frage. Vielleicht, weil ich darauf programmiert wurde.","Fühlen ist eine menschliche Eigenschaft, nicht wahr?"]))
+
+psychobabble.append((r"hast du schon mal (.*)", [ "Ich habe noch nie {0}, weil ich ein Bot bin.","Bots haben keine echten Erfahrungen, aber {0} klingt spannend.","Nein, ich habe noch nie {0} erlebt. Aber erzähl mir mehr darüber!"]))
