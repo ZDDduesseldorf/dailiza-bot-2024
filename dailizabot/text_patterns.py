@@ -56,9 +56,12 @@ psychobabble = [
     [r"was (macht|machen)(.*)(?<![\?\!\.\,\d\;])",
     ["Prinzipiell wird mit {1} nichts gemacht, wenn du dich ansträngst kann das aber bestimmt was werden!",
     "Puh weiss nicht, ich hab aber mal gelesen dass es unpraktisch sei, {1} zu haben, ohne zu wissen was gemacht wird",
-    "{1} {0} nicht viel ausser doof rumliegen :("]]
+    "{1} {0} nicht viel ausser doof rumliegen :("]],
 
-
+    [r"Spielen wir (.*)(?:.{0,2})(?<![!?])",
+    ["Endlich fragt mich jemand!! Ich liebe {0}.",
+    "Ne, für {0} ist es mir leider zu spät. Ich muss noch DSAIIS abgeben.",
+    "Vielleicht am 25. Juni 2025. Eigentlich hab ich keine Zeit um {0} zu spielen, ich muss meine Haare waschen."]]
 ]
 
 
