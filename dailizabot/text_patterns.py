@@ -61,7 +61,13 @@ psychobabble = [
     [r"Spielen wir (.*)(?:.{0,2})(?<![!?])",
     ["Endlich fragt mich jemand!! Ich liebe {0}.",
     "Ne, für {0} ist es mir leider zu spät. Ich muss noch DSAIIS abgeben.",
-    "Vielleicht am 25. Juni 2025. Eigentlich hab ich keine Zeit um {0} zu spielen, ich muss meine Haare waschen."]]
+    "Vielleicht am 25. Juni 2025. Eigentlich hab ich keine Zeit um {0} zu spielen, ich muss meine Haare waschen."]],
+
+    [r"Woher kommt (.*)(?:.{0,2})(?<![!?])",
+    ["Wo {0} herkommt? Woher soll ich das wissen?",
+    "{0} kommt aus den tiefsten Alpen.",
+    "{0} wurde zuerst in einer sumerischen Ruine gefunden, seitdem aber auch in Mexiko und der Mongolei."]]
+
 ]
 
 
