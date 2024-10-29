@@ -51,8 +51,12 @@ psychobabble = [
     [r"Kannst du mir bei (.*) helfen",
      ["Was genau möchtest du über {0} wissen?",
     "Wie kann ich dir bei {0} behilflich sein?",
-    "Erzähl mir mehr über deine Fragen zu {0}."]]
+    "Erzähl mir mehr über deine Fragen zu {0}."]],
 
+    [r"Danke|Vielen Dank",
+     ["Ich helfe immer wieder gern!",
+      "no problemo",
+      "Gerne! Hast du noch andere Fragen?"]]
 
 ]
 
