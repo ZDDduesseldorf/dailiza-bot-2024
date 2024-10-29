@@ -53,6 +53,20 @@ psychobabble = [
     "Wie kann ich dir bei {0} behilflich sein?",
     "Erzähl mir mehr über deine Fragen zu {0}."]]
 
+    [r"Könntest du bitte (.*)",
+     ["Wich will nicht {0}",
+    "Warum sollte ich {0}",
+    "Ich kann leider nicht {0}"]]
+    
+    [r"Ich verstehe (.*) nicht",
+     ["ich kenne das Gefühl, {0} nicht zu verstehen.",
+      "Ich vertshe {0} auch nicht",
+      "was gibt es an {0} nicht zu verstehen?"]]
+    
+    [r"darf ich (.*)",
+     ["Ich weiß nicht, ob du {0} darfst.",
+      "ja klar darf du {0}",
+      "nein du darfst {0} nicht"]]
 
 ]
 
