@@ -67,3 +67,6 @@ psychobabble.append((r'ich mag (.*)', ["Warum magst du {0}?", "Was gefällt dir 
 
 
 psychobabble.append((r'Hast du ein Bewusstsein', ["Ich denke nicht. Oder vielleicht doch ? Denke ich überhaupt ? Ich weiß es nicht. Oder weiß ich es doch ? Weiß ich überhaupt was ? BIN ich überhaupt ?"]))
+
+
+psychobabble.append((r"gewinnt {0,1} nächsten Ballon d'Or|dor|dOr| ?", ["Ich denke Lamine Yamal hat ziemlich gute Chancen auf den Ballon d'Or"]))
