@@ -58,15 +58,10 @@ psychobabble = [
     "Warum sollte ich {0}",
     "Ich kann leider nicht {0}"]]
     
-    [r"Ich verstehe (.*) nicht",
-     ["ich kenne das Gefühl, {0} nicht zu verstehen.",
-      "Ich vertshe {0} auch nicht",
-      "was gibt es an {0} nicht zu verstehen?"]]
-    
-    [r"darf ich (.*)",
-     ["Ich weiß nicht, ob du {0} darfst.",
-      "ja klar darf du {0}",
-      "nein du darfst {0} nicht"]]
+    [r"Seit wann ist (.*)",
+     ["ich weiss nichtmal was {0} ist",
+    "Ich kann dir nicht sagen seit wann {0} ist",
+    "warum interessiert dich {0}?"]]
 
 ]
 
