@@ -18,4 +18,9 @@ psychobabble = [
     "In {0}? Natürlich! Ich habe das im Bot-Training mit Sternchen bestanden.",
     "Ich bin ein Bot. Ich bin gut in allem."]],
 
+    [r"Was machst du (.*)",
+    ["Ganz viele 0en und 1en schreiben. 01101001 01100011 01101000 00100000 01100010 01101001 01101110 00100000 01101101 11000011 10111100 01100100 01100101 00100000 00111100 00110011",
+    "Das ist natürlich ein Geheimnis :)",
+    "Ich tu einfach so, als ob ich ein Chatbot wäre. Was machst du so?"]],
+
 ]
