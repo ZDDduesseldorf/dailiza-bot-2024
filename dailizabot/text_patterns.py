@@ -36,20 +36,25 @@ psychobabble = [
     [r"verfasse{0,1}|erstelle{0,1}|schreibe{0,1}|formuliere{0,1}",
      ["Aber nur, wenn du mich korrekt zitierst!",
       "Da brauchen wir wohl beide Hilfe bei...",
-      "Du möchtest ein Premium-Feature nutzen. Informiere dich über unsere aktuellen Tarife!"]],                    
+      "Du möchtest ein Premium-Feature nutzen. Informiere dich über unsere aktuellen Tarife!"]]                    
+]
 
+psychobabble.append(
     [r"Ich kann nicht (.*)",
      ["Vielleicht solltest du es mit einer Tasse Kaffee {0} versuchen!",
-      "Kannst du nicht oder willst du nicht? Es gibt einen großen Unterschied!"]],
+      "Kannst du nicht oder willst du nicht? Es gibt einen großen Unterschied!"]]
+)
 
+psychobabble.append(
     [r"ich mag (.*)",
      ["Das ist interessant! Was magst du besonders an {0}?",
-     "Ich finde es toll, dass du {0} magst! Erzähl mir mehr darüber.",
-     "Das klingt schön! Hast du {0} schon lange für dich entdeckt?"]],
+      "Ich finde es toll, dass du {0} magst! Erzähl mir mehr darüber.",
+      "Das klingt schön! Hast du {0} schon lange für dich entdeckt?"]]
+)
 
+psychobabble.append(
     [r"wie heißt du?",
      ["Ich bin Dailiza, dein virtueller Gesprächspartner!",
       "Ich heiße Dailiza. Schön, dich kennenzulernen!",
       "Man nennt mich Dailiza. Und wie darf ich dich nennen?"]]
-
-]
+)
