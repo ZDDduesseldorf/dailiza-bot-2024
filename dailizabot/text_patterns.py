@@ -64,3 +64,10 @@ psychobabble.append((r'Was geht', ["nichts und bei dir?"]))
 
 
 psychobabble.append((r'ich mag (.*)', ["Warum magst du {0}?", "Was gefällt dir besonders an {0}?"]))
+
+
+psychobabble.append([r"es ist (.*) gewesen", 
+    ["Das klingt nach einer interessanten Erfahrung! Erzähl mir mehr.",
+     "Es ist immer spannend, solche Momente zu erleben. Was hat dir gefallen?",
+     "Klingt so, als wäre es eine denkwürdige Zeit gewesen!"]
+])
