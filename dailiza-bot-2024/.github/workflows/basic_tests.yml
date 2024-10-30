@@ -1,0 +1,24 @@
+name: first code check
+
+on:
+  push:
+
+jobs:
+  first_check:
+    name: first code check / python-3.9 / ubuntu-latest
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: Set up Python
+        uses: actions/setup-python@v2
+        with:
+          python-version: 3.9
+      - name: Python info
+        run: |
+          which python
+          python --version
+      - name: Run unit tests
+        run: |
+          pip install pytest
+          pytest
+  
