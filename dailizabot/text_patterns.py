@@ -64,3 +64,5 @@ psychobabble.append((r'Was geht', ["nichts und bei dir?"]))
 
 
 psychobabble.append((r'ich mag (.*)', ["Warum magst du {0}?", "Was gefällt dir besonders an {0}?"]))
+
+psychobabble.append((r'Ich wohne in (.*)', ["Was ist dein Lieblingsort in {0}?", "Möchtest du für immer in {0} wohnen?", "Wo würdest du gerne mal wohnen?"]))
