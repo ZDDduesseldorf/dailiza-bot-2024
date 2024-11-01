@@ -122,3 +122,10 @@ psychobabble.append((r'Was geht', ["nichts und bei dir?"]))
 
 
 psychobabble.append((r'ich mag (.*)', ["Warum magst du {0}?", "Was gefällt dir besonders an {0}?"]))
+
+
+psychobabble.append((r"Ich möchte (.*) lernen", ["Klingt gut! Was interessiert dich an {0}?"]))
+
+psychobabble.append((r"Kannst du (.*)", ["Ja, du etwa nicht?", "Sicher! Hast du fragen zu {0}."]))
+
+psychobabble.append((r"Möchtest du (.*)", ["Ja", "Nein"]))
