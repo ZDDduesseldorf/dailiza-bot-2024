@@ -96,8 +96,22 @@ psychobabble = [
     [r"Kannst du mir bei (.*) helfen",
      ["Was genau möchtest du über {0} wissen?",
     "Wie kann ich dir bei {0} behilflich sein?",
-    "Erzähl mir mehr über deine Fragen zu {0}."]]
+    "Erzähl mir mehr über deine Fragen zu {0}."]],
 
+    [r"Könntest du bitte (.*)",
+     ["Ich will nicht {0}",
+    "Warum sollte ich {0}",
+    "Ich kann leider nicht {0}"]],
+    
+    [r"Seit wann ist (.*)",
+     ["ich weiss nichtmal was {0} ist",
+    "Ich kann dir nicht sagen seit wann {0} ist",
+    "warum interessiert dich {0}?"]],
+    
+    [r"Ich verstehe (.*) nicht",
+     ["ich kenne das Gefühl, {0} nicht zu verstehen.",
+    "Ich vertshe {0} auch nicht",
+    "was gibt es an {0} nicht zu verstehen?"]]
 ]
 
 
