@@ -3,6 +3,8 @@
 Here we collect the chatbot text patterns.
 """
 
+import datetime
+
 psychobabble = [
     [r"geht.{0,5}s.{0,5}dir",
     ["Danke. Mir geht es gut und dir?",
@@ -98,6 +100,10 @@ psychobabble = [
     "Wie kann ich dir bei {0} behilflich sein?",
     "Erzähl mir mehr über deine Fragen zu {0}."]],
 
+    [r"Ich heiße (.*)",
+     ["Schön, dich kennenzulernen, {0}.",
+      "{0}? Schöner Name!"]],
+
     [r"Danke|Vielen Dank",
      ["Ich helfe immer wieder gern!",
       "no problemo",
@@ -172,15 +178,23 @@ psychobabble = [
      ["ich kenne das Gefühl, {0} nicht zu verstehen.",
     "Ich vertshe {0} auch nicht",
     "was gibt es an {0} nicht zu verstehen?"]]
+
+    [r"Wie spät ist es\?",
+     [f"Es ist {datetime.datetime.now().strftime('%H:%M')} Uhr."]],
+
+    [r"Wer bist du\?",
+     ["Ich bin Dailiza. Wie kann ich dir helfen?"]]],
+
+    [r"Ich bin (.*)", 
+     ["Warum bist du {0}?", "Wie lange bist du schon {0}?"]],
+
+    [r"Was geht", 
+     ["nichts und bei dir?"]],
+
+    [r"Ich mag (.*)", 
+     ["Warum magst du {0}?", "Was gefällt dir besonders an {0}?"]]
+ 
 ]
-
-
-psychobabble.append((r'ich bin (.*)', ["Warum bist du {0}?", "Wie lange bist du schon {0}?"]))
-
-
-psychobabble.append((r'Was geht', ["nichts und bei dir?"]))
-
-
 psychobabble.append((r'ich mag (.*)', ["Warum magst du {0}?", "Was gefällt dir besonders an {0}?"]))
 
 
