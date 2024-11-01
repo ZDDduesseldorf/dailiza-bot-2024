@@ -68,6 +68,21 @@ psychobabble = [
       "Da brauchen wir wohl beide Hilfe bei...",
       "Du möchtest ein Premium-Feature nutzen. Informiere dich über unsere aktuellen Tarife!"]],                             
 
+    [r"Ich f(ü|ue|u)hle mich (.*)",
+    ["Warum fühlst du dich {1}?",
+    "Was denkst du, hat dazu geführt, dass du dich {1} fühlst?",
+    "Wie lange fühlst du dich schon {1}?"]],
+
+    [r"Ich kann nicht (.*)",
+    ["Warum denkst du, dass du {0} nicht kannst?",
+    "Hast du schon mal darüber nachgedacht, warum du {0} nicht kannst?",
+    "Was hält dich davon ab, {0} zu können?"]],
+
+    [r"Warum passiert mir immer,? (.*)",
+    ["Warum glaubst du, dass dir immer {0} passiert?",
+    "Meinst du, dass es einen Grund gibt, warum dir immer {0} passiert?",
+    "Was würde passieren, wenn {0} nicht mehr vorkäme?"]],
+
     [r"Magst du (.*)",
     ["Ja, {0} kann wirklich interessant sein!",
     "Manchmal mag ich {0}, es hängt ganz vom Kontext ab.",
@@ -82,6 +97,7 @@ psychobabble = [
      ["Was genau möchtest du über {0} wissen?",
     "Wie kann ich dir bei {0} behilflich sein?",
     "Erzähl mir mehr über deine Fragen zu {0}."]]
+
 ]
 
 
