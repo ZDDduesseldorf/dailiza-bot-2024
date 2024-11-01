@@ -1,7 +1,7 @@
 import random
 import re
-from reflection import reflect
-from text_patterns import psychobabble
+from dailizabot.reflection import reflect
+from dailizabot.text_patterns import psychobabble
 
 
 def dailiza_answer(user_input):
