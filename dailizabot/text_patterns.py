@@ -98,6 +98,21 @@ psychobabble = [
     "Wie kann ich dir bei {0} behilflich sein?",
     "Erzähl mir mehr über deine Fragen zu {0}."]],
 
+    [r"was (macht|machen)(.*)(?<![\?\!\.\,\d\;])",
+    ["Prinzipiell wird mit {1} nichts gemacht, wenn du dich ansträngst kann das aber bestimmt was werden!",
+    "Puh weiss nicht, ich hab aber mal gelesen dass es unpraktisch sei, {1} zu haben, ohne zu wissen was gemacht wird",
+    "{1} {0} nicht viel ausser doof rumliegen :("]],
+
+    [r"Spielen wir (.*)(?:.{0,2})(?<![!?])",
+    ["Endlich fragt mich jemand!! Ich liebe {0}.",
+    "Ne, für {0} ist es mir leider zu spät. Ich muss noch DSAIIS abgeben.",
+    "Vielleicht am 25. Juni 2025. Eigentlich hab ich keine Zeit um {0} zu spielen, ich muss meine Haare waschen."]],
+
+    [r"Woher kommt (.*)(?:.{0,2})(?<![!?])",
+    ["Wo {0} herkommt? Woher soll ich das wissen?",
+    "{0} kommt aus den tiefsten Alpen.",
+    "{0} wurde zuerst in einer sumerischen Ruine gefunden, seitdem aber auch in Mexiko und der Mongolei."]],
+
     [r"Ich bin (.*)",
      ["Warum bist du {0}?", 
       "Wie lange bist du schon {0}?",
@@ -127,7 +142,6 @@ psychobabble = [
      ["ich kenne das Gefühl, {0} nicht zu verstehen.",
     "Ich vertshe {0} auch nicht",
     "was gibt es an {0} nicht zu verstehen?"]]
-
 ]
 
 
