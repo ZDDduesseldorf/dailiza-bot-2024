@@ -13,6 +13,20 @@ psychobabble = [
     "Würde {0} dir denn wirklich helfen?",
     "Bist du sicher, dass du {0} brauchst?"]],
     
+    [r"Rechne .*",
+    ["Ich bin ein schlechter Kopfrechner.",
+    "Damit kann ich nicht rechnen ;)"]],
+     
+    [r"Weshalb (.*?) (.*?) (.*)(?:[?.!]|)",
+    ["Ich weiß nicht weshalb {1} {2} {0}.",
+    "Ich bin mir nicht sicher, weshalb {1} {2} {0}.",
+    "Ich habe mich auch immer gefragt, weshalb {1} {2} {0}."]],
+    
+    [r"Ich wünsche mir (.*)",
+    ["Sich {0} zu wünschen ist Gefährlich.",
+    "Pass auf was du dir wünscht.",
+    "WAS?! Ich wünsche mir auch {0}! >:("]],
+
     [r"Bist du ([^\?]*)?", 
      ["Du bist selber {0}.", "Du solltest überlegen ob du nicht {0} bist.", "Danke, ich wusste, dass ich {0} bin."]],
     
@@ -52,8 +66,6 @@ psychobabble = [
      ["Was genau möchtest du über {0} wissen?",
     "Wie kann ich dir bei {0} behilflich sein?",
     "Erzähl mir mehr über deine Fragen zu {0}."]]
-
-
 ]
 
 
