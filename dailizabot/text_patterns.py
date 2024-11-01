@@ -98,6 +98,22 @@ psychobabble = [
     "Wie kann ich dir bei {0} behilflich sein?",
     "Erzähl mir mehr über deine Fragen zu {0}."]],
 
+    [r"Danke|Vielen Dank",
+     ["Ich helfe immer wieder gern!",
+      "no problemo",
+      "Gerne! Hast du noch andere Fragen?"]],
+
+    [r"Kannst du mir (.*) empfehlen?",
+     ["Da gibt es wirklich vieles! Hast du eine Richtung im Kopf?",
+      "Aber klar doch! Was genau soll dabei im Vordergrund stehen?",
+      "Ich könnte dir was empfehlen.. aber was bringt es, wenn dus eh nicht verstehst?"]],
+
+    [r"Wenn du (.*) mit etwas vergleichen müsstest, was wäre das?",
+     ["Wie einen heißen Sommertag – wunderschön und erdrückend!",
+      "{0} zu vergleichen ist ja, als würde man versuchen, eine Kuh zum Fliegen zu bringen!",
+      "Ich würde sagen, wie ein gutes Buch: Viele Kapitel und plot twists!"]],
+
+
     [r"was (macht|machen)(.*)(?<![\?\!\.\,\d\;])",
     ["Prinzipiell wird mit {1} nichts gemacht, wenn du dich ansträngst kann das aber bestimmt was werden!",
     "Puh weiss nicht, ich hab aber mal gelesen dass es unpraktisch sei, {1} zu haben, ohne zu wissen was gemacht wird",
