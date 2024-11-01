@@ -177,13 +177,13 @@ psychobabble = [
     [r"Ich verstehe (.*) nicht",
      ["ich kenne das Gefühl, {0} nicht zu verstehen.",
     "Ich vertshe {0} auch nicht",
-    "was gibt es an {0} nicht zu verstehen?"]]
+    "was gibt es an {0} nicht zu verstehen?"]],
 
     [r"Wie spät ist es\?",
      [f"Es ist {datetime.datetime.now().strftime('%H:%M')} Uhr."]],
 
     [r"Wer bist du\?",
-     ["Ich bin Dailiza. Wie kann ich dir helfen?"]]],
+     ["Ich bin Dailiza. Wie kann ich dir helfen?"]],
 
     [r"Ich bin (.*)", 
      ["Warum bist du {0}?", "Wie lange bist du schon {0}?"]],
