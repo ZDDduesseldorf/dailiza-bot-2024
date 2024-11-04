@@ -68,7 +68,7 @@ psychobabble = [
     [r"verfasse{0,1}|erstelle{0,1}|schreibe{0,1}|formuliere{0,1}",
      ["Aber nur, wenn du mich korrekt zitierst!",
       "Da brauchen wir wohl beide Hilfe bei...",
-      "Du möchtest ein Premium-Feature nutzen. Informiere dich über unsere aktuellen Tarife!"]],                             
+      "Du möchtest ein Premium-Feature nutzen. Informiere dich über unsere aktuellen Tarife!"]],               
 
     [r"Ich f(ü|ue|u)hle mich (.*)",
     ["Warum fühlst du dich {1}?",
@@ -195,6 +195,7 @@ psychobabble = [
      ["Warum magst du {0}?", "Was gefällt dir besonders an {0}?"]]
  
 ]
+
 psychobabble.append((r'ich mag (.*)', ["Warum magst du {0}?", "Was gefällt dir besonders an {0}?"]))
 
 
@@ -235,3 +236,23 @@ psychobabble.append((r'Wie (.*) Wetter (.*)', ["Ich habe leider keinen Zugriff a
 psychobabble.append((r'(wer gewinnt|wer erhält|gewinnt|erhält) .* Ballon.*', ["Ich denke Lamine Yamal hat ziemlich gute Chancen auf den Ballon d'Or"]))
 
 psychobabble.append((r'(?:D|d)u bist ([^?]*?)(?:[!.]*$|$)', ["Danke, du bist auch {0}!\nKann ich dir noch irgendwie helfen?", "Ich tue mal so als haette ich das nicht gelesen...\nSonst noch was?", "Ich bin also {0}? Ich weiss ehrlich gesagt nicht was ich darauf sagen soll...\nBitte frag mich irgendwas, damit ich das hier vergessen kann."]))
+
+psychobabble.append(
+    [r"Ich kann nicht (.*)",
+     ["Vielleicht solltest du es mit einer Tasse Kaffee {0} versuchen!",
+      "Kannst du nicht oder willst du nicht? Es gibt einen großen Unterschied!"]]
+)
+
+psychobabble.append(
+    [r"ich mag (.*)",
+     ["Das ist interessant! Was magst du besonders an {0}?",
+      "Ich finde es toll, dass du {0} magst! Erzähl mir mehr darüber.",
+      "Das klingt schön! Hast du {0} schon lange für dich entdeckt?"]]
+)
+
+psychobabble.append(
+    [r"wie heißt du?",
+     ["Ich bin Dailiza, dein virtueller Gesprächspartner!",
+      "Ich heiße Dailiza. Schön, dich kennenzulernen!",
+      "Man nennt mich Dailiza. Und wie darf ich dich nennen?"]]
+)
