@@ -13,6 +13,7 @@ reflections = {
     "deine": "meine",
     "dein": "mein",
     "dir": "mir",
+    "wäre": "wärst"
 }
 
 
